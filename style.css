@@ -1,0 +1,48 @@
+body {
+    font-family: 'Garamond';
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    gap: 5em;
+    margin: 2em;
+}
+
+.page-head {
+    display: flex;
+    justify-content: center;
+}
+
+.player-buttons {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+}
+
+.result-board {
+    border: 5px solid black; 
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.score-display {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    gap: 3em; 
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action-button {
+    width: 5em;
+    height: 5em;
+}

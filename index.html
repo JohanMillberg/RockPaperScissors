@@ -6,7 +6,27 @@
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <h1>Here is my new game!</h1>
+        <div class="page-head">
+            <h1>Rock Paper Scissors</h1>
+        </div>
+        <div class="player-buttons">
+            <button class="action-button rock">Rock</button>
+            <button class="action-button paper">Paper</button>
+            <button class="action-button scissors">Scissors</button>
+        </div>
+        <div class="result-board">
+            <h2 class="result-text">Select a move in order to play!</h2>
+            <div class="score-display">
+                <div class="score">
+                    <h3 class="score-text">Player score</h3>
+                    <h3 class="score-number-player">0</h3>
+                </div>
+                <div class="score">
+                    <h3 class="score-text">Computer score</h3> 
+                    <h3 class="score-number-computer">0</h3>
+                </div>
+            </div>
+        </div>
         <script src="app.js"></script>
     </body>
 </html>
